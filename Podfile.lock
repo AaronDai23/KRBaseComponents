@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - KRCommonComponents (1.0.3):
+    - KRCommonComponents/Categories (= 1.0.3)
+    - KRCommonComponents/Config (= 1.0.3)
+    - KRCommonComponents/Utilites (= 1.0.3)
+  - KRCommonComponents/Categories (1.0.3):
+    - AFNetworking (~> 3.2.1)
+    - KRCommonComponents/Utilites
+  - KRCommonComponents/Config (1.0.3)
+  - KRCommonComponents/Utilites (1.0.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - KRCommonComponents (~> 1.0.3)
+  - Masonry (= 1.1.0)
+  - MJRefresh (= 3.1.15.7)
+  - SVProgressHUD (= 2.1.2)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - KRCommonComponents
+    - Masonry
+    - MJRefresh
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  KRCommonComponents: 62b7ab73c6f977c37217f461b9746ad6b026b803
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: caff69af0fc3c3b25467c1fda5116194ff621cc8
+
+COCOAPODS: 1.9.2

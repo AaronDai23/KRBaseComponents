@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KRBaseComponents"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
 
   spec.summary      = "基础组件,专门放置基类"
 
@@ -99,15 +99,15 @@ Pod::Spec.new do |spec|
   spec.subspec 'Views' do |view|
   view.source_files = "KRBaseComponents/Base/Views/**/*"
   view.frameworks = 'WebKit'
-  view.dependency 'Masonry', '1.1.0'
-  view.dependency 'MJRefresh', '3.1.15.7'
-  view.dependency 'SVProgressHUD', '2.1.2'
+  view.dependency 'Masonry', '~>1.1.0'
+  view.dependency 'MJRefresh', '~>3.1.15.7'
+  view.dependency 'SVProgressHUD', '~>2.1.2'
   end
   
   spec.subspec 'Controllers' do |controller|
-  controller.source_files = "KRBaseComponents/Base/Controllers/**/*'
-  controller.dependency 'Masonry', '1.1.0'
-  controller.frameworks = 'UIKit'
+  controller.source_files = "KRBaseComponents/Base/Controllers/**/*"
+  controller.frameworks = "WebKit"
+  controller.dependency 'Masonry', '~>1.1.0'
   controller.dependency 'KRCommonComponents', '~>1.0.3'
   end
  # spec.exclude_files = "Classes/Exclude"

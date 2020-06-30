@@ -109,6 +109,8 @@ Pod::Spec.new do |spec|
   controller.frameworks = "WebKit"
   controller.dependency 'Masonry', '~>1.1.0'
   controller.dependency 'KRCommonComponents', '~>1.0.3'
+  controller.dependency 'MJRefresh', '~>3.1.15.7'
+  controller.dependency 'SVProgressHUD', '~>2.1.2'
   end
  # spec.exclude_files = "Classes/Exclude"
 
